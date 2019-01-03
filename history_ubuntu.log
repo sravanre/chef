@@ -1,0 +1,111 @@
+    1  clear
+    2  uptime
+    3  df -h
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    5  clear
+    6  apt-get update
+    7  ip a|grep inet
+    8  nmcli
+    9  apt-get install git
+   10  apt-get install docker-ce
+   11  apt-get install docker
+   12  docker --version
+   13  apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   14  apt-key fingerprint 0EBFCD88
+   15  apt-get updsate
+   16  apt-get update
+   17  apt-get install docker-ce
+   18  apt-cache madison docker-ce
+   19  cat /etc/os-release
+   20  pwd
+   21  ls
+   22  cd /tmp/
+   23  sls
+   24  git clone https://github.com/nageshvkn/gamutkart.git
+   25  ls -ltr
+   26  du -sh gamutkart/
+   27  cd gamutkart/
+   28  s
+   29  cd ga
+   30  ls
+   31  ls -ltr
+   32  cd ..
+   33  ls
+   34  cd gamutkart/
+   35  ls
+   36  https://github.com/nageshvkn/gamutdevopsdocs.git
+   37  clear
+   38  cd ..
+   39  ls
+   40  cd gamutkart/
+   41  ls
+   42  cd src/
+   43  ls
+   44  cd ..
+   45  cat deploy.sh 
+   46  l
+   47  clear
+   48  ls
+   49  vim deploy.sh 
+   50  ls
+   51  df -h
+   52  cd /tmp/
+   53  ls
+   54  wget https://packages.chef.io/files/stable/chefdk/3.6.57/ubuntu/18.04/chefdk_3.6.57-1_amd64.deb
+   55  ls
+   56  apt-get install cn
+   57  dpkg -i chefdk_3.6.57-1_amd64.deb 
+   58  chef --version
+   59  clear
+   60  top
+   61  clear
+   62  ls
+   63  df -h
+   64  useradd sravan
+   65  passwd sravan
+   66  userdel sravan
+   67  useradd -m -d /home/sravan sravan
+   68  echo sravan | passwd sravan --stdin
+   69  passwd sravan
+   70  clear
+   71  cd /home/sravan/
+   72  ls
+   73  vim file.rb
+   74  chef-apply file.rb 
+   75  ls
+   76  vim file.rb 
+   77  chef-apply file.rb 
+   78  ls
+   79  cat newfile 
+   80  vim file.rb 
+   81  chef-apply file.rb 
+   82  cat newfile 
+   83  ls -ltr
+   84  vim file.rb
+   85  chef-apply file.rb 
+   86  ls
+   87  vim file.rb 
+   88  chef-apply file.rb 
+   89  ls -l
+   90  cat newfile 
+   91  clear
+   92  ls
+   93  git clone https://github.com/sravan
+   94  clear
+   95  shutdown -P now
+   96  clear
+   97  df -h
+   98  cd /home/sravan/
+   99  ls
+  100  cd chef/
+  101  ls
+  102  git init
+  103  git add *
+  104  git status
+  105  git commit -m "firt" *
+  106  ls
+  107  ls -al
+  108  git remote add origin https://github.com/sravanre/chef.git
+  109  git push https://github.com/sravanre/chef.git
+  110  history | less
+  111  history >> history_ubuntu.log
